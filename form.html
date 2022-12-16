@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		
+	</head>
+	<body>
+		<form style="height:1024px;width:700px;background-color:pink">
+			<fieldset >
+				<br><legend>Personal Information</legend>
+				<label for="fn">First Name</label>
+				<input type="text"id="fn"name="fn"placeholder=""value=""><br><br>
+				
+				<label for="ln">Last Name</label>
+				<input type="text"id="ln"name="ln"placeholder=""value=""><br><br>
+				
+				<label for="ge"><b>Sex&nbsp</b></label>
+				<select id="ge"name="ge">
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+				</select><br><br>
+				
+				<label for="se"><b>Sex:&nbsp</b></label>
+				Male<input type="radio"id="se"name="se">
+				Female<input type="radio"id="se"name="se"><br><br>
+				
+				<label for="cu">Commonly used browser:&nbsp</label>
+				Mozilla<input type="radio"id="mo"name="cu">
+				Chrome<input type="radio"id="ch"name="cu">
+				Safari<input type="radio"id="sa"name="cu"><br><br>
+				
+				<label for="ho">Hobbies:&nbsp</label>
+				Reading<input type="checkbox"id="cb"name="cb">
+				Sleeping<input type="checkbox"id="cb"name="cb">
+				Gameing<input type="checkbox"id="cb"name="cb"><br><br>
+				
+				<label for="qu">Qualification:&nbsp</label>
+				SSLC<input type="checkbox"id="qu"name="qu">
+				+2<input type="radio"id="qu"name="qu">
+				Others<input type="radio"id="qu"name="qu"><br><br>
+				
+				<label for="br">Books Readed</label>
+				<textarea name="br"rows="10"cols="15"value=""></textarea><br><br>
+				
+				<label for="ph">Phone number:&nbsp</label>
+				<input type="tel"id="ph"name="ph"placeholder="0123456789"pattern="[0-9]"{10}><br><br>
+				
+				<label for="em">Email Id:&nbsp</label>
+				<input type="email"id="em"name="em"placeholder="name123@gmail.com"value=""><br><br>
+				
+				<label for="re">Register number&nbsp</label>
+				<input type="text"id="re"name="re"placeholder=""value=""><br><br>
+				
+				<label for="id">Register Id&nbsp</label>
+				<input type="text"id="id"name="id"value="123456"readonly><br><br>
+				
+				<label for="de">Department</label>
+				<select id="de"name="de"multiple>
+				<option>CS</option>
+				<option>EE</option>
+				<option>CE</option>
+				<option>EE</option>
+				</select><br><br>
+				
+				<label for="dob">DOB</label>
+				<input type="date"id="dob"name="dob"value=""><br><br>
+				
+				<label for="ab">About You</label>
+				<textarea id="ab"name="ab"rows="10"cols="15"value=""></textarea><br><br>
+				
+				<center><button type="button"id="bu"name="bu"value="button"onclick="alert('Make sure the data is valid')">Click Me!</button></center>
+				
+			</fieldset>
+		</form>
+	</body>
+</html>
